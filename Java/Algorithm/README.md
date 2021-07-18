@@ -4,6 +4,13 @@
 
 BFS에서 메모리초가: q에 중복되는 값이 들어가는지 확인하자
 
+## 2021/07/13
+
+|                            난이도                            |                      번호                      |                          문제 이름                           |    유형    |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------------: | :--------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | [11656](https://www.acmicpc.net/problem/11656) |     [접미사 배열](https://www.acmicpc.net/problem/11656)     |   String   |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> |  [9205](https://www.acmicpc.net/problem/9205)  | [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | DFS<br>BFS |
+
 ## 2021/07/02
 
 |                            난이도                            |                      번호                      |                    문제 이름                    |        유형        |
