@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
 public class Main_Bronze1_10988_팰린드롬인지확인하기 {
 
 	public static void main(String[] args) throws IOException {
-		// 풀이1.
+		// 풀이1. 124ms
 		/*
 		BufferedReader br2 = new BufferedReader(new InputStreamReader(System.in));
 		StringBuilder sb2 = new StringBuilder(br2.readLine());
@@ -21,7 +21,7 @@ public class Main_Bronze1_10988_팰린드롬인지확인하기 {
 		}
 		*/
 
-		// 풀이2.
+		// 풀이2. 120ms
 		/*
 		BufferedReader br3 = new BufferedReader(new InputStreamReader(System.in));
 
@@ -40,7 +40,7 @@ public class Main_Bronze1_10988_팰린드롬인지확인하기 {
 		System.out.println(result);
 		*/
 
-		// 내 풀이
+		// 내 풀이, 184ms
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		StringBuilder sb = new StringBuilder();
