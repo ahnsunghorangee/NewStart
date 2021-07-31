@@ -54,7 +54,7 @@ public class Main_Gold1_16118_달빛여우 {
 
 			int a = Integer.parseInt(st.nextToken());
 			int b = Integer.parseInt(st.nextToken());
-			int c = Integer.parseInt(st.nextToken()) * 2; // ★ 2배 느리게 할 때 doulbe을 막기 위해 x2해서 사용한다. 
+			int c = Integer.parseInt(st.nextToken()) * 2; // ★ 2배 느리게 할 때 double을 막기 위해 x2해서 사용한다. 
 
 			adj[a].add(new Node(b, c));
 			adj[b].add(new Node(a, c));
