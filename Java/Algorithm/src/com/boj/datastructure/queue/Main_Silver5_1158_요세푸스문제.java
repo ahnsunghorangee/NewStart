@@ -9,6 +9,11 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
+/**
+ * 시간 오래 걸림 -> 다른 풀이 Implementation 참고
+ * @author jugia
+ *
+ */
 public class Main_Silver5_1158_요세푸스문제 {
 
 	static int N, K;
