@@ -6,9 +6,10 @@ BFS에서 메모리초가: q에 중복되는 값이 들어가는지 확인하자
 
 ## 2021/07/31
 
-|                            난이도                            | 번호                                         |                       문제 이름                       |              유형              |                     풀이                      |
-| :----------------------------------------------------------: | -------------------------------------------- | :---------------------------------------------------: | :----------------------------: | :-------------------------------------------: |
-| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [1158](https://www.acmicpc.net/problem/1158) | [요세푸스 문제](https://www.acmicpc.net/problem/1158) | Queue<br>Implementation :bulb: | [블로그](https://ash-tiger95.tistory.com/154) |
+|                            난이도                            |                      번호                      |                       문제 이름                        |              유형              |                     풀이                      |
+| :----------------------------------------------------------: | :--------------------------------------------: | :----------------------------------------------------: | :----------------------------: | :-------------------------------------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |  [1158](https://www.acmicpc.net/problem/1158)  | [요세푸스 문제](https://www.acmicpc.net/problem/1158)  | Queue<br>Implementation :bulb: | [블로그](https://ash-tiger95.tistory.com/154) |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [11052](https://www.acmicpc.net/problem/11052) | [카드 구매하기](https://www.acmicpc.net/problem/11052) |               DP               | [블로그](https://ash-tiger95.tistory.com/155) |
 
 ## 2021/07/13
 

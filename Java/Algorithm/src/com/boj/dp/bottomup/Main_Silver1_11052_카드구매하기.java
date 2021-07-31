@@ -1,4 +1,4 @@
-package com.boj.dp;
+package com.boj.dp.bottomup;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
