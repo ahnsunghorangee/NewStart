@@ -5,23 +5,29 @@ import java.io.BufferedWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.PriorityQueue;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class Main_Gold2_1766_문제집 {
 	
-	static int N, M;
-	static int[][] pre;
-	static int[] checked;
-	
-	static class Node{
-		int pre;
-		boolean cant;
+	static class Node implements Comparable<Node>{
+		int num;
 		
-		Node(int pre, boolean cant){
-			this.pre= pre;
-			this.cant=cant;
+		public Node(int num) {
+			this.num = num;
+		}
+		
+		@Override
+		public int compareTo(Node o) {
+			return Integer.compare(this.num, o.num);
 		}
 	}
+	
+	static int N, M;
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,23 +38,40 @@ public class Main_Gold2_1766_문제집 {
 		N = Integer.parseInt(st.nextToken()); // 총 문제의 수, 1 ≤ N ≤ 32,000
 		M = Integer.parseInt(st.nextToken()); // 먼저 푸는 것이 좋은 문제에 대한 정보의 수, (1 ≤ M ≤ 100,000)
 
-		pre = new int[M][2];
+		List<List<Integer>> list = new ArrayList<>();
+		for(int i=0;i<=N;i++) {
+			list.add(new ArrayList<>());
+		}
+		
+		int[] cnt = new int[N+1];
+		
 		for(int i=0;i<M;i++) {
 			st = new StringTokenizer(br.readLine());
-			pre[i][0] = Integer.parseInt(st.nextToken()); // 이 문제는
-			pre[i][1] = Integer.parseInt(st.nextToken()); // 이 문제보다 먼저 푸는 것이 좋다.
-			
-			
+			int a = Integer.parseInt(st.nextToken());
+			int b = Integer.parseInt(st.nextToken());
+			list.get(a).add(b);
+			cnt[b]++;
+		}
+		
+		PriorityQueue<Node> pq = new PriorityQueue<>();
+		
+		for(int i=1;i<=N;i++) {
+			if(cnt[i] == 0) {
+				pq.offer(new Node(i));
+			}
 		}
 		
 		for(int i=1;i<=N;i++) {
-			if(checked[i] == 0) {
-				sb.append(i);
-			} else if(checked[i] == 1) {
+			int v = pq.poll().num;
+			sb.append(v).append(" ");
+			
+			for(int next : list.get(v)) {
+				cnt[next]--;
 				
+				if(cnt[next] == 0) {
+					pq.add(new Node(next));
+				}
 			}
-			
-			
 		}
 		
 		
