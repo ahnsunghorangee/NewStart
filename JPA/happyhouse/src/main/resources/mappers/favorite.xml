@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.projectboot.repo.FavoriteRepo">
+	
+	<select id="findLoccode" parameterType="locationDto" resultType="String" >
+		select loccode
+		from location
+		where gu= #{gu} and dong= #{dong}
+	</select>
+	
+	<insert id="addFavorite" parameterType="favoriteDto">
+		insert into favorite(userid, loccode)
+		values(#{userid}, #{loccode})
+	</insert>
+	
+	<select id="listFavorite" parameterType="String" resultType="favoriteDto">
+		select loc.si si, loc.gu gu, loc.dong dong, fav.favno
+		from location loc, favorite fav
+		where loc.loccode = fav.loccode and fav.userid = #{userid}
+	</select>
+	
+	<select id="findGuname" resultType="String">
+		select gugun_name
+		from guguncode
+		where gugun_code = concat(#{gucode},'00000')
+	</select>
+	
+	<delete id="selectDelete">
+		delete from favorite
+		where favno = #{del}
+	</delete>
+	
+	<select id="isZzim" resultType="int">
+		select count(*) from zzim
+		where dealno = #{no}
+		and userid = #{userid}
+	</select>
+	
+	<insert id="addZzim">
+		insert into zzim(userid, dealno)
+		values(#{userid}, #{no})
+	</insert>
+	
+	<delete id="deleteZzim">
+		delete from zzim
+		where dealno = #{no}
+	</delete>
+	
+</mapper>

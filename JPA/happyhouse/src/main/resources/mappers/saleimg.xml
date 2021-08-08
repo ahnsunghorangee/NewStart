@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.projectboot.repo.SaleImgRepo">
+
+	<select id="getSaleNo" resultType="int">
+		select max(saleno)+1
+		from saleimg
+	</select>
+
+	<select id="selectAll" resultType="saleImgDto">
+    	select userid, imgname
+    	from saleimg
+    </select>
+    
+	<insert id="insertImg" parameterType="saleimgDto">
+		insert into saleimg(userid, imgname, saleno)
+		values(#{userid},#{imgname},#{saleno})
+	</insert>
+	
+	
+	
+</mapper>
