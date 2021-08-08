@@ -20,6 +20,7 @@ public class MemberController {
 	
 	@GetMapping("/join") // 단순 페이지 이동
 	public String mvJoin() {
+		// test
 		return "/member/join";
 	}
 	
