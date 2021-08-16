@@ -31,6 +31,8 @@ public class Main_Gold4_14676_영우는사기꾼 {
 		for (int i = 0; i < N + 1; i++) {
 			list.add(new ArrayList<Integer>());
 		}
+		
+		
 
 		for (int i = 0; i < M; i++) {
 			st = new StringTokenizer(br.readLine());
