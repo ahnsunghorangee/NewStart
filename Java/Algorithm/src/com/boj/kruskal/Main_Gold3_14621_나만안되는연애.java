@@ -81,6 +81,14 @@ public class Main_Gold3_14621_나만안되는연애 {
 			parents[i] = i;
 		}
 	}
+	
+	private static int find(int x) {
+		if (parents[x] == x) {
+			return x;
+		} else {
+			return parents[x] = find(parents[x]);
+		}
+	}
 
 	private static void union(int x, int y) {
 		x = find(x);
@@ -92,14 +100,6 @@ public class Main_Gold3_14621_나만안되는연애 {
 			} else {
 				parents[x] = y;
 			}
-		}
-	}
-
-	private static int find(int x) {
-		if (parents[x] == x) {
-			return x;
-		} else {
-			return parents[x] = find(parents[x]);
 		}
 	}
 
@@ -130,5 +130,4 @@ public class Main_Gold3_14621_나만안되는연애 {
 		}
 		return false;
 	}
-
 }
