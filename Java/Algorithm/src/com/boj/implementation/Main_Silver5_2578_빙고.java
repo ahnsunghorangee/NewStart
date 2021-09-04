@@ -46,7 +46,7 @@ public class Main_Silver5_2578_빙고 {
 					}
 				}
 			}
-			
+
 			if (t <= 10) { // 절대 빙고가 나올 수 없다.
 				continue;
 			}
