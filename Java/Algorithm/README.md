@@ -4,12 +4,39 @@
 
 BFS에서 메모리초가: q에 중복되는 값이 들어가는지 확인하자
 
+## 2021/09/07
+
+|                            난이도                            |                      번호                      |                    문제 이름                    |  유형  |
+| :----------------------------------------------------------: | :--------------------------------------------: | :---------------------------------------------: | :----: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [14405](https://www.acmicpc.net/problem/14405) | [피카츄](https://www.acmicpc.net/problem/14405) | String |
+
+## 2021/09/05
+
+|                            난이도                            |                     번호                     |                     문제 이름                     |      유형      |
+| :----------------------------------------------------------: | :------------------------------------------: | :-----------------------------------------------: | :------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [4396](https://www.acmicpc.net/problem/4396) | [지뢰 찾기](https://www.acmicpc.net/problem/4396) | Implementation |
+
+## 2021/09/04
+
+|                            난이도                            |                     번호                     |                  문제 이름                   |      유형      |
+| :----------------------------------------------------------: | :------------------------------------------: | :------------------------------------------: | :------------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [2578](https://www.acmicpc.net/problem/2578) | [빙고](https://www.acmicpc.net/problem/2578) | Implementation |
+
+## 2021/08/29
+
+|                            난이도                            |                      번호                      |                         문제 이름                         |     유형     |
+| :----------------------------------------------------------: | :--------------------------------------------: | :-------------------------------------------------------: | :----------: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> |  [2581](https://www.acmicpc.net/problem/2581)  |       [소수](https://www.acmicpc.net/problem/2581)        | Eratosthenes |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [13913](https://www.acmicpc.net/problem/13913) |    [숨바꼭질 4](https://www.acmicpc.net/problem/13913)    |     BFS      |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | [14923](https://www.acmicpc.net/problem/14923) |     [미로탈출](https://www.acmicpc.net/problem/14923)     |     BFS      |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [14621](https://www.acmicpc.net/problem/14621) | [나만 안되는 연애](https://www.acmicpc.net/problem/14621) |     Prim     |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | [14621](https://www.acmicpc.net/problem/14621) | [나만 안되는 연애](https://www.acmicpc.net/problem/14621) |   Kruskal    |
+
 ## 2021/08/14
 
 |                            난이도                            |                      번호                      |                        문제 이름                         | 유형 |
 | :----------------------------------------------------------: | :--------------------------------------------: | :------------------------------------------------------: | :--: |
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/7.svg"/> | [10546](https://www.acmicpc.net/problem/10546) | [배부른 마라토너](https://www.acmicpc.net/problem/10546) | Map  |
-|                                                              |                                                |                                                          |      |
 
 ## 2021/08/04
 
@@ -67,8 +94,6 @@ BFS에서 메모리초가: q에 중복되는 값이 들어가는지 확인하자
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/4.svg"/> | [19532](https://www.acmicpc.net/problem/19532) | [수학은 비대면강의입니다](https://www.acmicpc.net/problem/19532) |           Math            |
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/9.svg"/> | [11722](https://www.acmicpc.net/problem/11722) | [가장 긴 감소하는 부분 수열](https://www.acmicpc.net/problem/11722) |    기본 LIS (이분탐색)    |
 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |  [1414](https://www.acmicpc.net/problem/1414)  |     [불우이웃돕기](https://www.acmicpc.net/problem/1414)     | 방향 그래프 MST는 Kruskal |
-|                                                              |                                                |                                                              |                           |
-|                                                              |                                                |                                                              |                           |
 
 ## 2021/06/20
 
