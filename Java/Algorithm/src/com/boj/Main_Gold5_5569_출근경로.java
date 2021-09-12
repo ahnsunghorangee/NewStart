@@ -11,7 +11,7 @@ public class Main_Gold5_5569_출근경로 {
 	
 	static int W, H;
 	static int[][][][] dp;
-	static final int mod = 100_000;
+	static final int MOD = 100_000;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -23,6 +23,8 @@ public class Main_Gold5_5569_출근경로 {
 		H = Integer.parseInt(st.nextToken());
 		
 		dp = new int[W+1][H+1][2][2];
+		
+		
 		
 
 		bw.write(sb.toString());

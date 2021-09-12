@@ -15,17 +15,14 @@
 - Project1 Happy House (Spring, JSP)
   - UCC : https://youtu.be/KJ1Mx305sRU
   
-  
 - Project2 골라라 골라 (Node.js, React)
   - 배포 : http://ec2-3-129-217-136.us-east-2.compute.amazonaws.com/ 
   - UCC : https://youtu.be/3XjU52B_XtM
   - 성과: UCC 전국 3등
   
-  
 - Project3 수어: 또 하나의 언어 (Django, Vue.js)
   - UCC 주소: https://youtu.be/p6Ccgq0pd8o
   - 성과: UCC 전국 1등, 대전 1반 2등
-  
   
 - Project4 NiceRuN (SpringBoot, Android Java)
   - UCC 주소: https://youtu.be/-2_TJjFjgzM
@@ -47,10 +44,3 @@
 
 - 실시간 모니터링 데이터 시각화 (Spring, JSP)
   - 성과: 우수사원 선정 (종합 평가 1등)
-
-
-
-#### 첨부 자료(상장 및 이수증)
-
-https://drive.google.com/drive/folders/1KYACk8Ern5cVAqGu6XcRK-ThOY6idwvu
-
