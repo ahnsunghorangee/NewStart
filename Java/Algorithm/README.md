@@ -4,6 +4,13 @@
 
 BFS에서 메모리초가: q에 중복되는 값이 들어가는지 확인하자
 
+#### 2021/09/16
+
+|                            난이도                            |                      번호                      |                         문제 이름                         | 유형 |
+| :----------------------------------------------------------: | :--------------------------------------------: | :-------------------------------------------------------: | :--: |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/6.svg"/> | [16208](https://www.acmicpc.net/problem/16208) |      [귀찮음](https://www.acmicpc.net/problem/16208)      | Math |
+| <img height="25px" width="25px" src="https://static.solved.ac/tier_small/10.svg"/> | [15991](https://www.acmicpc.net/problem/15991) | [1, 2, 3 더하기 6](https://www.acmicpc.net/problem/15991) |  DP  |
+
 ## 2021/09/07
 
 |                            난이도                            |                      번호                      |                         문제 이름                         |  유형  |
