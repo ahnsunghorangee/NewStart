@@ -1,11 +1,13 @@
 server:
-  port: 9001
+  port: 0 # 포트 0번은 랜덤포트를 사용하겠다는 의미
 
 spring:
   application:
     name: user-service
 
 eureka:
+  instance:
+    instance-id: ${spring.cloud.client.hostname}:${spring.application.instance_id:${random.value}}
   clinet:
     register-with-eureka: true
     fetch-registry: true
