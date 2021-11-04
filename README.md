@@ -33,7 +33,6 @@
 ### 2021 우리은행 온택트 해커톤
 
 - Project Woofy (SpringBoot, Vue.js)
-  - UCC : https://youtu.be/YFNKrRlOvww
   - 성과 : 우리은행 온택트 해커톤 대상
 
 
