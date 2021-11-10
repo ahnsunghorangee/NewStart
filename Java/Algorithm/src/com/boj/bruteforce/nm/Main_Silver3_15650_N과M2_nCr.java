@@ -1,4 +1,4 @@
-package com._review.previous;
+package com.boj.bruteforce.nm;
 
 import java.util.Scanner;
 
