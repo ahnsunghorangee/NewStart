@@ -26,6 +26,9 @@ public class Main_Bronze2_19532_수학은비대면강의입니다 {
 		e = Integer.parseInt(st.nextToken());
 		f = Integer.parseInt(st.nextToken());
 
+		
+		
+		
 		// 가감법
 		int x = (c * e - b * f) / (a * e - b * d);
 		int y = (c * d - a * f) / (b * d - a * e);
