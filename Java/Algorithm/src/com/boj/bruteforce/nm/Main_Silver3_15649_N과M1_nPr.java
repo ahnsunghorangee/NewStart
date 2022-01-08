@@ -1,5 +1,6 @@
 package com.boj.bruteforce.nm;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main_Silver3_15649_N과M1_nPr {
@@ -10,8 +11,9 @@ public class Main_Silver3_15649_N과M1_nPr {
 		Scanner sc = new Scanner(System.in);
 		N = sc.nextInt();
 		M = sc.nextInt();
-		isSelected = new boolean[N+1];
-		output = new int[N+1];
+		isSelected = new boolean[N];
+		System.out.println(Arrays.toString(isSelected));
+		output = new int[M];
 		
 		// nPr: 서로 다른 n개 중 r개를 선택하는 경우(순서 o)
 		nPr(0);
@@ -27,13 +29,13 @@ public class Main_Silver3_15649_N과M1_nPr {
 		}
 		
 		for(int i=1;i<=N;i++) {
-			if(isSelected[i])
+			if(isSelected[i-1])
 				continue;
 			
 			output[cnt] = i;
-			isSelected[i] = true;
+			isSelected[i-1] = true;
 			nPr(cnt+1);
-			isSelected[i] = false;
+			isSelected[i-1] = false;
 		}
 		
 	}
