@@ -44,11 +44,48 @@ public class JpaMain {
             */
 
             // 영속 엔티티의 동일성 보장
+            /*
             Member findMember = em.find(Member.class, 101L);
             Member findMember2 = em.find(Member.class, 101L);
             System.out.println("result = " + (findMember == findMember2)); // true
 
+             */
+
             // 엔티티 등록할 때, 트랜잭션을 지원하는 쓰기 지연
+            /*
+            Member member1 = new Member(150L, "A");
+            Member member2 = new Member(160L, "B");
+
+            em.persist(member1);
+            em.persist(member2);
+            System.out.println("==========================");
+
+             */
+
+            // 엔티티 수정, 변경 감지(Dirty Checking)
+            /*
+            Member member = em.find(Member.class, 150L);
+            member.setName("ZZZZZ"); // 값만 바꾸면 update 쿼리 필요없이 JPA가 변경을 감지하고 update 쿼리를 날린다. 언제? tx.commit() 시점에
+
+            System.out.println("==========================");
+
+             */
+
+            // 플러시
+            /*
+            Member member = new Member(200L,"member200");
+            em.persist(member); // 영속성 컨텍스트에 담기고
+
+            em.flush(); // 쿼리가 DB에 바로 반영(1차 캐시 지워지지 않고 쓰기 지연 SQL 저장소만 반영)
+            System.out.println("==========================");
+
+             */
+
+            // 준영속 상태
+            Member member = em.find(Member.class, 150L); // 영속 상태
+            member.setName("AAAAA");
+
+            em.detach(member); // 준영속 상태, update 쿼리가 안 나간다.
 
             tx.commit();
         } catch(Exception e){
