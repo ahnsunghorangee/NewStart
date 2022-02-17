@@ -82,10 +82,13 @@ public class JpaMain {
              */
 
             // 준영속 상태
+            /*
             Member member = em.find(Member.class, 150L); // 영속 상태
             member.setName("AAAAA");
 
             em.detach(member); // 준영속 상태, update 쿼리가 안 나간다.
+
+             */
 
             tx.commit();
         } catch(Exception e){
