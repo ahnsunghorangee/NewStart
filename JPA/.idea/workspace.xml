@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b731a070-758f-4a2a-ab3e-2fc9fababbf8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/ExQuerydslApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/controller/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/controller/InitMember.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/controller/MemberController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/dto/MemberDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/dto/MemberSearchCondition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/dto/MemberTeamDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/dto/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/entity/Hello.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/entity/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/entity/Team.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/repo/MemberJpaRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/repo/MemberRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/repo/MemberRepoCustom.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/java/com/study/exquerydsl/repo/MemberRepoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/ExQuerydslApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/QuerydslBasicTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/QuerydslIntermediateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/entity/MemberTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/repo/MemberJpaRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/java/com/study/exquerydsl/repo/MemberRepoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Querydsl/ex-querydsl/src/test/resources/application.yml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="25uKW4DSFAVqVcw1cPN8A6p0xIR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Querydsl" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\jugia\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b731a070-758f-4a2a-ab3e-2fc9fababbf8" name="Changes" comment="" />
+      <created>1646371563511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646371563511</updated>
+    </task>
+    <servers />
+  </component>
+</project>
