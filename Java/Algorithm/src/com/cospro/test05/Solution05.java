@@ -2,6 +2,7 @@ package com.cospro.test05;
 
 import java.util.Arrays;
 
+// 처음부터 구현하기
 public class Solution05 {
 	public int solution(int[] enemies, int[] armies) {
 		// 여기에 코드를 작성해주세요.
