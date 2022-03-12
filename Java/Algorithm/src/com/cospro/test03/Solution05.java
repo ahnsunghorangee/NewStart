@@ -1,5 +1,6 @@
 package com.cospro.test03;
 
+// 구현
 public class Solution05 {
 	public String solution(String phrases, int second) {
 		// 여기에 코드를 작성해주세요.
