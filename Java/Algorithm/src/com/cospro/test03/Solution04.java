@@ -4,14 +4,45 @@ package com.cospro.test03;
 public class Solution04 {
 	public int solution(String s1, String s2) {
 		// 여기에 코드를 작성해주세요.
-		int answer = 0;
-
+		int answer = s1.length()+s2.length();
+		
+		int case1 = check(s1,s2);
+		int case2 = check(s2,s1);
+		
+		System.out.println(case1+" "+case2);
+		
+		if(case1 > case2) {
+			answer -= case2;
+		} else {
+			answer -= case1;
+		}
+		
+		
 		return answer;
 	}
 
 	private static int check(String s1, String s2) {
+		StringBuffer sb = new StringBuffer(s1);
+		String reverse = sb.reverse().toString();
+		
+		int sameCnt = 0;
+		for(int i=0;i<s2.length();i++) {
+			if(reverse.length() < i) {
+				break;
+			}
+			
+			System.out.println(reverse.charAt(i)+" "+s2.charAt(i));
+			
+			if(reverse.charAt(i) == s2.charAt(i)) {
+				sameCnt++;
+			} else {
+				break;
+			}
+		}
+		
+		System.out.println(sameCnt);
 
-		return 0;
+		return sameCnt;
 	}
 
 	// 아래는 테스트케이스 출력을 해보기 위한 main 메소드입니다.
