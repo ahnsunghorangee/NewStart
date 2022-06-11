@@ -19,7 +19,6 @@ public class Main_Silver3_15650_N과M2_nCr {
 		list.add(0);
 		list.add(1);
 		list.add(2);
-		System.out.println("list: " + list);
 		
 		// nCr: 조랍
 		nCr(0,1);
@@ -37,7 +36,6 @@ public class Main_Silver3_15650_N과M2_nCr {
 		for(int i=cur;i<=N;i++) {
 			
 			output[cnt] = i;
-			System.out.println(cnt+" " +cur+" "+i+" " +Arrays.toString(output));
 			nCr(cnt+1,i+1);
 		}
 		
